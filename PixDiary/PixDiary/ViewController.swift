@@ -19,17 +19,17 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         // Do any additional setup after loading the view, typically from a nib.
         imagePicker.delegate = self
     }
+    @IBAction func load(_ sender: Any) {
+        imagePicker.allowsEditing = false
+        imagePicker.sourceType = .camera
+        present(imagePicker, animated: true, completion: nil)
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func load(_ sender: Any) {
-        imagePicker.allowsEditing = false
-        imagePicker.sourceType = .camera
-        present(imagePicker, animated: true, completion: nil)
-    }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let pickedImg = info[UIImagePickerControllerOriginalImage] as! UIImage?{

@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					FACD17851DD6879000B6C1F7 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 92373SMQFJ;
+						DevelopmentTeam = 876237K769;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,7 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 92373SMQFJ;
+				DEVELOPMENT_TEAM = 876237K769;
 				INFOPLIST_FILE = PixDiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pixcorp.com.PixDiary;
@@ -274,7 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 92373SMQFJ;
+				DEVELOPMENT_TEAM = 876237K769;
 				INFOPLIST_FILE = PixDiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pixcorp.com.PixDiary;
