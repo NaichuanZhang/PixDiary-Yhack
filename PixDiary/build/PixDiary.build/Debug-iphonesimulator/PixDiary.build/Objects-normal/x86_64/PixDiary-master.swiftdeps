@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "741d8c680ec816459deaed42542b0893"
+build_time: [532236406, 171856000]
+inputs:
+  "/Users/Hadi/Documents/PixDiary-Yhack/PixDiary/PixDiary/ViewController.swift": [532236405, 0]
+  "/Users/Hadi/Documents/PixDiary-Yhack/PixDiary/PixDiary/AppDelegate.swift": [532236232, 0]
